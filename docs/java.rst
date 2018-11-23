@@ -49,8 +49,8 @@ Java
     payload.setHash("ff2d5960e239692c834c35307223f45542f35330235009d5a6aec5f7bc19f1fb");
 	// 调用hash上链接口，如果成功则返回交易ID，如果失败则返回失败消息
 	try {
-		CreateAttestationResponse response = client.sendTransaction(payload);
-		System.out.println(response.getData().getNo());
+		CreateTransResponse response = client.sendTransaction(payload);
+		System.out.println(response.getData().getTxID());
 	} catch (ServerException e) {
 		System.out.println(e.getMessage());
 	}

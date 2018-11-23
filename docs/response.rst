@@ -20,12 +20,9 @@ data         有效数据，具体在接口里面描述
 	{
 		"request_id": "2XiTgZ2oVrBgGqKQ1ruCKh",
 		"data": {
-			"attestation_id": "nXiTrBgQ1ruCKhgZ2oV"
+			"txID": "nXiTrBgQ1ruCKhgZ2oV"
 		}
 	} 
-
-另外一种是返回一个文件，比如下载保全文件时。
-
 
 异常返回
 --------------
