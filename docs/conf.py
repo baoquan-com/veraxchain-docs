@@ -49,7 +49,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'保全连'
+project = u'保全链'
 copyright = u'2018, 保全链'
 author = u'baoquan.com'
 
